@@ -10,3 +10,17 @@ body {
     font-size: large;
     color: darkorchid;
 }
+#lista{
+    background-color: #fed9ff;
+    width: 300px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type:none
+}
