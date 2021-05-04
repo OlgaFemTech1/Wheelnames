@@ -1,7 +1,7 @@
-const nombres = ["Alisa","Amanda","Ana G","Ana L", "Angie", "Clau", "Daniela R.", "Daniela T.", "Eliana", "Flo", "Gaby", "Leo", "Inga", "Pepi", "María Laura", "Marta", "Nicole", "Olga", "Yeraldin", "Ranju", "Rosangely", "Sonia", "Taiza", "Yasmín"
+let nombres = ["Alisa","Amanda","Ana G","Ana L", "Angie", "Clau", "Daniela R.", "Daniela T.", "Eliana", "Flo", "Gaby", "Leo", "Inga", "Pepi", "María Laura", "Marta", "Nicole", "Olga", "Yeraldin", "Ranju", "Rosangely", "Sonia", "Taiza", "Yasmín"
 ];
 function voluntario(){
-    let positionRandom = Math.floor(Math.random()*nombres.length);
+    const positionRandom = Math.floor(Math.random()*nombres.length);
     const randomItem = nombres[positionRandom];
     console.log(randomItem);
     nombres.splice(positionRandom,1);
@@ -10,7 +10,7 @@ function voluntario(){
     padre.removeChild(hijo);
 
 
-    let elegida = document.getElementById("candidata");
+    const elegida = document.getElementById("candidata");
     elegida.innerHTML = randomItem;
 
 
