@@ -4,7 +4,6 @@
 body{
     background-color: #754ffe;
     font-family: sans-serif;
-
 }
 .container {
     width: 100%;
@@ -25,35 +24,30 @@ h1{
 .align-items-center {
     align-items: center;
 }
-
 ul {
     list-style-type: none;
 }
 .btn {
     display: inline-block;
     font-weight: 600;
-    color: #5c5776;
     text-align: center;
     vertical-align: middle;
-    background-color: transparent;
     border: 1px solid transparent;
     padding: .75rem 1.25rem;
     font-size: .875rem;
-    line-height: 1.6;
     border-radius: .25rem;
-}
 
-.btn-inicio {
+}
+.btn-first {
     color: #fff;
     background-color: #19cb98;
     border-color: #19cb98;
 }
-.btn-reinicio {
+.btn-second {
     color: #18113c;
     background-color: #fff;
     border-color: #fff;
 }
-
 #lista{
     background-color: #fed9ff;
     width: 300px;
@@ -62,34 +56,4 @@ ul {
     overflow-y: auto;
     text-align: left;
     padding: 10px;
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
 }
-
-
-/*body {*/
-/*    background-color: #E2F4FF*/
-/*;*/
-/*}*/
-/*#cucanya{*/
-
-/*}*/
-/*#candidata {*/
-/*    font-weight: bold ;*/
-/*    font-size: large;*/
-/*    color: darkorchid;*/
-/*}*/
-/*#lista{*/
-/*    background-color: #fed9ff;*/
-/*    width: 300px;*/
-/*    height: 100px;*/
-/*    overflow-x: hidden;*/
-/*    overflow-y: auto;*/
-/*    text-align: left;*/
-/*    padding: 10px;*/
-/*    display: flex;*/
-/*    justify-content: flex-end;*/
-/*}*/
-/*ul{*/
-/*    list-style-type:none*/
-/*}*/
