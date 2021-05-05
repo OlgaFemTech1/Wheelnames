@@ -5,16 +5,19 @@ body{
     background-image: url("piñata/confetti-png-5690.png");
     background-color: #754ffe;
     font-family: sans-serif;
+    margin:0;
 }
 .container {
     width: 100%;
-    padding-right: 12px;
-    padding-left: 12px;
+    /*   padding-right: 12px;
+       padding-left: 12px;*/
     margin-right: auto;
     margin-left: auto;
 }
+
 header {
-    background-color: cadetblue;
+    overflow: hidden;
+    background-color: #ffb500;
     text-align: center;
 }
 h1{
@@ -45,20 +48,21 @@ ul {
     padding: .75rem 1.25rem;
     font-size: 1.475rem;
     border-radius: .25rem;
+    cursor:pointer;
 
 }
 .btn-first {
     color: #fff;
-    background-color: #19cb98;
+    background-color: #97c121;
     border-color: #19cb98;
 }
 .btn-second {
-    color: #18113c;
-    background-color: #fff;
+    color: #789b16;
+    background-color: white;
     border-color: #fff;
 }
 #lista{
-    background-color: #fed9ff;
+    background-color: white;
     font-size: x-large;
     width: 400px;
     height: 200px;
@@ -73,7 +77,9 @@ ul {
     display: flex;
     justify-content: space-around;
 
+
 }
+
 .listaybotones{
     display: flex;
     flex-direction: column;
