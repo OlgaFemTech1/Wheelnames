@@ -20,6 +20,21 @@ function voluntario(){
    // document.body.innerHTML = (randomItem);
 
 }
+const cucanya =document.getElementById("cucanya");
+cucanya.animate([
+    { transform: 'scale(1)',opacity: 1, offset: 0},
+    { transform: 'scale(.5) rotate (2700deg)', opacity: 0.5, offset: .5},
+    { transform: 'scale(1) rotate (0deg)', opacity: 1, offset:1},
+    ], {
+    duration: 1000,
+    delay: 20,
+    easing: 'linear',
+    iterations: Infinity,
+    direction: 'normal'
+
+    });
+
+
 function recarga(){
     window.open("index.html","_top");
 }
