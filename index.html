@@ -8,16 +8,17 @@
 </head>
 <body>
 <div class="container">
-    <div class="row align-items-center">
-        <div>
-            <h1>Escoge tu candidata voluntaria</h1>
-            <img id="cucanya" src="piñata/piñataEntera.svg" alt="Imagen de piñata">
-            <p id="candidata">Aquí saldrá la voluntaria</p>
-            <button id="inicio" class="btn btn-first">Start</button>
-            <button id="reinicio" class="btn btn-second">Recargar</button>
-        </div>
+    <header>
+        <h1>Escoge tu candidata voluntaria</h1>
+    </header>
+    <div class="papi">
+    <div class="row">
+        <img id="cucanya" src="piñata/piñataEntera.svg" alt="Imagen de piñata">
+        <p id="candidata">Aquí saldrá la voluntaria</p>
+    </div>
+    <div class="listaybotones">
         <div id="lista">
-            <ul>
+          <ul>
                 <li>Alisa</li>
                 <li>Amanda</li>
                 <li>Ana G</li>
@@ -43,7 +44,12 @@
                 <li>Taiza</li>
                 <li>Yasmin</li>
             </ul>
-        </div>
+            </div>
+             <div class="botones">
+                <button id="inicio" class="btn btn-first">Start</button>
+                 <button id="reinicio" class="btn btn-second">Recargar</button>
+            </div>
+    </div>
     </div>
 </div>
 <script src="main.js"></script>
