@@ -121,7 +121,20 @@ ul {
 }
 /*small screens*/
 @media(max-width: 1024px){
-
+    .row {
+        width: 70vh;
+    }
+    .listaybotones {
+        align-items: center;
+    }
+    #lista {
+      width: 200px;
+        height: 150px;
+    }
+    .btn {
+        margin: 2rem 0.8rem;
+        padding: .5rem 0.5rem;
+    }
 }
 /*large screens*/
 @media(min-width: 1024px){
