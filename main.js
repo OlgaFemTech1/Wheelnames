@@ -15,7 +15,7 @@ function voluntario(){
 
 
     if (nombres.length === 0) {
-      elegida.innerHTML = "Carga la página de nuevo";
+      elegida.innerHTML = "Pulsa el botón Recargar";
    }
    // document.body.innerHTML = (randomItem);
 
@@ -23,14 +23,14 @@ function voluntario(){
 const cucanya =document.getElementById("cucanya");
 cucanya.animate([
     { transform: 'scale(1)',opacity: 1, offset: 0},
-    { transform: 'scale(.5) rotate (2700deg)', opacity: 0.5, offset: .5},
+    { transform: 'scale(.5) rotate (270deg)', opacity: .5, offset: .5},
     { transform: 'scale(1) rotate (0deg)', opacity: 1, offset:1},
     ], {
-    duration: 1000,
-    delay: 20,
-    easing: 'linear',
+    duration: 5000,
+    delay: 2000,
+    easing: 'ease-in-out',
     iterations: Infinity,
-    direction: 'normal'
+    direction: 'alternate'
 
     });
 

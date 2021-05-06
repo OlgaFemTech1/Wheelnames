@@ -14,6 +14,15 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+#cucanya{
+    width: 100%;
+    height: auto;
+}
+#candidata{
+    font-size: xx-large;
+    font-weight: bold;
+    color: lightpink;
+}
 
 header {
     overflow: hidden;
@@ -69,12 +78,14 @@ ul {
     overflow-x: hidden;
     overflow-y: auto;
     text-align: left;
+    border-radius: 1em;
    /* padding: 10px;
     margin-bottom: 50px;*/
 }
 .botones{
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 
 
@@ -83,5 +94,5 @@ ul {
 .listaybotones{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
 }
