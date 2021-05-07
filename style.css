@@ -97,7 +97,7 @@ ul {
 }
 /*responsive*/
 /*smartphone*/
-@media(max-width: 480px){
+@media(max-width: 768px){
     h1 {
         font-size: 1.5rem;
         color: #fff;
@@ -108,7 +108,7 @@ ul {
     #lista {
         font-size: large;
         width: 150px;
-        height: 100px;
+        height: 80px;
     }
     .btn {
         font-size: 1rem;
@@ -127,16 +127,8 @@ ul {
     .listaybotones {
         align-items: center;
     }
-    #lista {
-      width: 200px;
-        height: 150px;
-    }
     .btn {
         margin: 2rem 0.8rem;
         padding: .5rem 0.5rem;
     }
-}
-/*large screens*/
-@media(min-width: 1024px){
-
 }
