@@ -18,19 +18,35 @@ function voluntario(){
    // document.body.innerHTML = (randomItem);
 
 }
+/*const cucanyarota = [
+    { transform: 'rotate(0) translate3D(-1%, -1%, 0)' },
+
+    { transform: 'rotate(360deg) translate3D(-1%, -1%, 0)'  }
+];
+
+const duracion = {
+    duration: 2000,
+    iterations: 10,
+    delay: 1000
+}
+
+document.getElementById("cucanya").animate(
+    cucanyarota,
+    duracion
+)*/
+
 const cucanya =document.getElementById("cucanya");
 cucanya.animate([
-    { transform: 'scale(1)',opacity: 1, offset: 0},
-    { transform: 'scale(.5) rotate (270deg)', opacity: .5, offset: .5},
-    { transform: 'scale(1) rotate (0deg)', opacity: 1, offset:1},
+    { transform: 'scale(1.1)',opacity: 1 },
+    { transform: 'scale(.75)' , opacity: .65 },
+    { transform: 'scale(1.1)' , opacity: 1 },
     ], {
-    duration: 5000,
-    delay: 2000,
+    duration: 2500,
+    delay: 100,
     easing: 'ease-in-out',
     iterations: Infinity,
     direction: 'alternate'
-
-    });
+});
 let audio = document.getElementById("audio");
 function sonido(){
     audio.play();
