@@ -108,27 +108,62 @@ ul {
     #lista {
         font-size: large;
         width: 150px;
-        height: 80px;
+        height: 100px;
     }
     .btn {
         font-size: 1rem;
         padding: 0.2rem;
     }
 }
-/*tablet*/
+
+/*responsive*/
 @media(max-width: 768px){
+    h1 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    #candidata {
+        font-size: medium;
+    }
+    #lista {
+        font-size: large;
+        width: 150px;
+        height: 100px;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+}
+
+
+@media(min-width: 768px){
+    #lista{
+        height:60px;
+        font-size: medium;
+    }
+    #cucanya{
+        width: 80%;}
 
 }
-/*small screens*/
-@media(max-width: 1024px){
+
+
+@media(min-width: 1024px){
     .row {
         width: 70vh;
     }
     .listaybotones {
         align-items: center;
     }
+    #lista {
+        width: 200px;
+        height: 150px;
+    }
     .btn {
         margin: 2rem 0.8rem;
         padding: .5rem 0.5rem;
+    }
+    #cucanya {
+        width: 100%;
     }
 }
