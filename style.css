@@ -21,7 +21,8 @@ body{
 #candidata{
     font-size: xx-large;
     font-weight: bold;
-    color: lightpink;
+    color: deeppink;
+    background-color: white;
 }
 
 header {
