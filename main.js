@@ -9,10 +9,8 @@ function voluntario(){
     const hijo = padre.getElementsByTagName("li")[positionRandom];
     padre.removeChild(hijo);
 
-
     const elegida = document.getElementById("candidata");
     elegida.innerHTML = randomItem;
-
 
     if (nombres.length === 0) {
       elegida.innerHTML = "Pulsa el botón Recargar";
@@ -33,19 +31,21 @@ cucanya.animate([
     direction: 'alternate'
 
     });
-
-
+let audio = document.getElementById("audio");
+function sonido(){
+    audio.play();
+}
 function recarga(){
     window.open("index.html","_top");
 }
 document.getElementById("inicio").addEventListener("click",voluntario);
 document.getElementById("reinicio").addEventListener("click",recarga);
+document.getElementById("inicio").addEventListener("click",sonido);
+
 
 //document.querySelector("button").addEventListener("click",voluntario);
 
 //const content = element.innerHTML;
 
-
 //invocar el método removeChild(elemento). Dicha función eliminará el elemento.
-
 
